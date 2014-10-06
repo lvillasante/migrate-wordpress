@@ -1,0 +1,1 @@
+UPDATE wp_options SET option_value = REPLACE(option_value,'dominio_viejo','dominio_nuevo');

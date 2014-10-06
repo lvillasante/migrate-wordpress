@@ -1,0 +1,1 @@
+UPDATE wp_posts SET guid = REPLACE(guid,'dominio_viejo','dominio_nuevo');
