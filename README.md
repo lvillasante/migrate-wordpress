@@ -18,7 +18,7 @@ Actualizar URLs de Wordpress
     ```
 3.
 	```
-    UPDATE wp_posts SET guid = REPLACE(guid,'dominio_viejo','dominio_nuevo');
+	UPDATE wp_posts SET guid = REPLACE(guid,'dominio_viejo','dominio_nuevo');
     ```
 4. Opcional
     ```
