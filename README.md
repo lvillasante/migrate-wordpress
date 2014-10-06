@@ -12,12 +12,12 @@ Actualizar URLs de Wordpress
 	```
     UPDATE wp_options SET option_value = REPLACE(option_value,'dominio_viejo','dominio_nuevo');
     ```
-2.    
-    ```
+2.
+	```
     UPDATE wp_posts SET post_content = REPLACE(post_content,'dominio_viejo','dominio_nuevo');
     ```
 3.
-    ```
+	```
     UPDATE wp_posts SET guid = REPLACE(guid,'dominio_viejo','dominio_nuevo');
     ```
 4. Opcional
